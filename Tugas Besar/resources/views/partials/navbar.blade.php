@@ -11,14 +11,29 @@
                     <a class="nav-link {{ $active === 'home' ? 'active' : '' }}" href="/">Home</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link {{ $active === 'posts' ? 'active' : '' }}" href="/home">Home</a>
+                    <a class="nav-link active" href="/home">Home</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link {{ $active === 'categories' ? 'active' : '' }}"
                         href="/categories">Categories</a>
+                </li> --}}
+                <li class="nav-item">
+                    <a class="nav-link active" href="posts?source=japanesestation">
+                        Japan Station
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $active === 'about' ? 'active' : '' }}" href="/about">About</a>
+                    <a class="nav-link active" href="posts?source=animeglobal">
+                        Anime Global
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="posts?source=comicbook">
+                        Comic Book
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/about">About</a>
                 </li>
             </ul>
         </div>

@@ -23,7 +23,8 @@ class CreatePostsTable extends Migration
             // $table->string('slug');
             $table->string('category');
             // $table->text('excerpt');
-            $table->text('content');
+            $table->text('url');
+            $table->text('img');
             // $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });

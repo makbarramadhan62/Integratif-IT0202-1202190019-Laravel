@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
-use App\Models\Category;
 use App\Models\Rss;
 
 class PostController extends Controller
@@ -13,20 +12,15 @@ class PostController extends Controller
     {
         $title = '';
 
-        if (request('category')) {
-            $category = Category::firstWhere('name', request('category'));
-            $title = ' in ' . $category->name;
-        }
-
         if (request('source')) {
-            $source = User::firstWhere('username', request('source'));
+            $source = Rss::firstWhere('username', request('source'));
             $title = ' by ' . $source->name;
         }
 
         return view('posts', [
             "title" => "All Posts" . $title,
             "active" => 'posts',
-            "posts" => Post::latest()->filter(request(['search', 'category', 'source']))->paginate(10)->withQueryString()
+            "posts" => Post::latest()->filter(request(['search', 'source']))->paginate(10)->withQueryString()
         ]);
     }
 
