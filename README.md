@@ -1,6 +1,6 @@
 # Integratif---IT0202---1202190019
 
-## Tahapan instalasi Laravel
+## Tahapan instalasi Laravl
 
 - Pertama, pastikan pada perangkat anda telah terinstall php minimal versi 7.4. Cek versi php kalian pada terminal / cmd dengan mengetikkan `php -v`.
 
