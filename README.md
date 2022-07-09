@@ -59,7 +59,7 @@ Link **RSS** yang digunakan pada project ini adalah sebagai berikut
 
 Tampilan All Post (Semua Post dari semua RSS akan tampil pada halaman ini)
 
-![1](C:\Users\makba\Pictures\1.png)
+![1](C:/Users/makba/Pictures/1.png)
 
 Tampilan All Post pada RSS Japanese Station (tampilan akan di filter berdasarkan sumber dari RSS Japanese Station)
 
