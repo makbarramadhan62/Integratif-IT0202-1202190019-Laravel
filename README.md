@@ -71,11 +71,11 @@ Tampilan All Post pada RSS Anime Global (tampilan akan di filter berdasarkan sum
 
 Tampilan All Post pada RSS Comic Book (tampilan akan di filter berdasarkan sumber dari RSS Comic Book)
 
-![4](Pictures/4.png)
+![4](picture/4.png)
 
 Tampilan about
 
-![5](C:\Users\makba\Pictures\5.png)
+![5](picture/5.png)
 
 **Cara Pembuatan**
 
