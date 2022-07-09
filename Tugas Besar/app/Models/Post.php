@@ -35,9 +35,4 @@ class Post extends Model
     {
         return $this->belongsTo(Rss::class, 'rss_id');
     }
-    
-    public function image()
-    {
-        return $this->belongsTo(Image::class, 'id');
-    }
 }

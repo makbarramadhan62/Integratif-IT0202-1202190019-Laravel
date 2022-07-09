@@ -19,19 +19,12 @@ use App\Models\Rss;
 |
 */
 
-// Route::get('/', function () {
-//     return view('home', [
-//         "title" => "Home",
-//         "active" => 'home'
-//     ]);
-// });
-
 Route::get('/about', function () {
     return view('about', [
         "title" => "About",
         "active" => 'about',
-        "name" => "Fujita Hisoka",
-        "email" => "fujitahisoka62@yahoo.com",
+        "name" => "M. Akbar Ramadhan",
+        "email" => "makbarramadhan62@gmail.com",
         "image" => "profil.jpg"
     ]);
 });

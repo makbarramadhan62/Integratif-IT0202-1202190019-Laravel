@@ -51,6 +51,42 @@ Database yang digunakan pada project ini terdiri dari 3 tabel dinamis (kemungkin
 
 Link **RSS** yang digunakan pada project ini adalah sebagai berikut
 
-- https://otakumode.com/news/feed
-- https://comicbook.com/feed/
+- https://japanesestation.com/feed
 - https://animeanime.global/feed
+- https://comicbook.com/feed/
+
+**Halaman**
+
+Tampilan All Post (Semua Post dari semua RSS akan tampil pada halaman ini)
+
+![image-20220709193442696](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709193442696.png)
+
+Tampilan All Post pada RSS Japanese Station (tampilan akan di filter berdasarkan sumber dari RSS Japanese Station)
+
+![image-20220709192309708](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192309708.png)
+
+Tampilan All Post pada RSS Anime Global (tampilan akan di filter berdasarkan sumber dari RSS Anime Global)
+
+![image-20220709192358765](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192358765.png)
+
+Tampilan All Post pada RSS Comic Book (tampilan akan di filter berdasarkan sumber dari RSS Comic Book)
+
+![image-20220709193455441](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709193455441.png)
+
+Tampilan about
+
+![image-20220709193226580](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709193226580.png)
+
+**Cara Pembuatan**
+
+- Buat file posts.blade.php untuk menampung desain web dan melakukan pemanggilan data ke database dengan variabel yang telah ditentukan
+
+  ![image-20220709192553776](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192553776.png)
+
+- Kemudian, lakukan routing atau penjaluran agar halaman website tampil sesuai dengan yang diinginkan
+
+  ![image-20220709192705268](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192705268.png)
+
+- kemudian untuk melakukan beberapa fitur seperti filter dan search dapat dilakukan pada controller
+
+  ![image-20220709192821600](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192821600.png)

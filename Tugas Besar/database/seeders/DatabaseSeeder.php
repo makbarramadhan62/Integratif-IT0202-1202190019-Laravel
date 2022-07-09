@@ -2,8 +2,6 @@
 
 namespace Database\Seeders;
 
-use DOMXPath;
-use DOMDocument;
 use App\Models\Rss;
 use App\Models\Post;
 use App\Models\Image;
@@ -36,9 +34,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Comic Book',
             'username' => 'comicbook',
             'url' => 'https://comicbook.com/feed/'
-        ]);
-        
-
+        ]);   
 
         $myXMLData = file_get_contents("https://japanesestation.com/feed");
         $myXMLData2 = file_get_contents("https://animeanime.global/feed");

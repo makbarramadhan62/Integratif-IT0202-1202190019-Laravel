@@ -23,7 +23,7 @@
             <img src="{{ $posts[0]->img }}" class="card-img-top" alt="{{ $posts[0]->title }}">
             {{-- <img src="https://source.unsplash.com/1200x500?"" alt="none" class="img-fluid"> --}}
             <div class="card-body text-center">
-                <p class="card-text">{!! $posts[0]->excerpt !!}</p>
+                {{-- <p class="card-text">{!! $posts[0]->excerpt !!}</p> --}}
                 <h3 class="card-title"><a href="/posts/{{ $posts[0]->title }}"
                         class="text-decoration-none text-dark">{{ $posts[0]->title }}</a></h3>
                 <p>

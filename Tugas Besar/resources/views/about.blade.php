@@ -28,7 +28,7 @@
 
     <div class="jumbotron text-center">
         <img src="img/profil.jpg" alt="profil" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Fujita Hisoka</h1>
+        <h1 class="display-4">M. Akbar Ramadhan</h1>
         <p class="lead">Student Collage | Editor</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
