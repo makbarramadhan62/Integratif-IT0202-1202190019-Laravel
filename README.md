@@ -59,19 +59,19 @@ Link **RSS** yang digunakan pada project ini adalah sebagai berikut
 
 Tampilan All Post (Semua Post dari semua RSS akan tampil pada halaman ini)
 
-![1](C:/Users/makba/Pictures/1.png)
+![1](picture/1.png)
 
 Tampilan All Post pada RSS Japanese Station (tampilan akan di filter berdasarkan sumber dari RSS Japanese Station)
 
-![2](C:\Users\makba\Pictures\2.png)
+![2](picture/2.png)
 
 Tampilan All Post pada RSS Anime Global (tampilan akan di filter berdasarkan sumber dari RSS Anime Global)
 
-![3](C:\Users\makba\Pictures\3.png)
+![3](picture/3.png)
 
 Tampilan All Post pada RSS Comic Book (tampilan akan di filter berdasarkan sumber dari RSS Comic Book)
 
-![4](C:\Users\makba\Pictures\4.png)
+![4](Pictures/4.png)
 
 Tampilan about
 
@@ -81,12 +81,12 @@ Tampilan about
 
 - Buat file posts.blade.php untuk menampung desain web dan melakukan pemanggilan data ke database dengan variabel yang telah ditentukan
 
-  ![image-20220709192553776](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192553776.png)
+  ![6](picture/6.png)
 
 - Kemudian, lakukan routing atau penjaluran agar halaman website tampil sesuai dengan yang diinginkan
 
-  ![image-20220709192705268](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192705268.png)
+  ![7](picture/7.png)
 
 - kemudian untuk melakukan beberapa fitur seperti filter dan search dapat dilakukan pada controller
 
-  ![image-20220709192821600](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192821600.png)
+  ![8](picture/8.png)
