@@ -59,23 +59,23 @@ Link **RSS** yang digunakan pada project ini adalah sebagai berikut
 
 Tampilan All Post (Semua Post dari semua RSS akan tampil pada halaman ini)
 
-![image-20220709193442696](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709193442696.png)
+![1](C:\Users\makba\Pictures\1.png)
 
 Tampilan All Post pada RSS Japanese Station (tampilan akan di filter berdasarkan sumber dari RSS Japanese Station)
 
-![image-20220709192309708](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192309708.png)
+![2](C:\Users\makba\Pictures\2.png)
 
 Tampilan All Post pada RSS Anime Global (tampilan akan di filter berdasarkan sumber dari RSS Anime Global)
 
-![image-20220709192358765](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709192358765.png)
+![3](C:\Users\makba\Pictures\3.png)
 
 Tampilan All Post pada RSS Comic Book (tampilan akan di filter berdasarkan sumber dari RSS Comic Book)
 
-![image-20220709193455441](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709193455441.png)
+![4](C:\Users\makba\Pictures\4.png)
 
 Tampilan about
 
-![image-20220709193226580](C:\Users\makba\AppData\Roaming\Typora\typora-user-images\image-20220709193226580.png)
+![5](C:\Users\makba\Pictures\5.png)
 
 **Cara Pembuatan**
 
