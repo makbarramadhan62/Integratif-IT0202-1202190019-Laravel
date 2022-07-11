@@ -32,7 +32,7 @@ Route::get('/about', function () {
 Route::get('/', [PostController::class, 'index']);
 Route::get('/home', [PostController::class, 'index']);
 Route::get('/posts', [PostController::class, 'index']);
-Route::get('posts/{post:title}', [PostController::class, 'show']);
+// Route::get('posts/{post:title}', [PostController::class, 'show']);
 
 Route::get('/categories', function () {
     return view('categories', [
@@ -40,4 +40,9 @@ Route::get('/categories', function () {
         "active" => 'categories',
         'categories' => Category::all()
     ]);
+});
+
+Route::get('/pokeapi', function(){
+    return view('pokeapi', [
+        "title" => "Pokemon API"]);
 });

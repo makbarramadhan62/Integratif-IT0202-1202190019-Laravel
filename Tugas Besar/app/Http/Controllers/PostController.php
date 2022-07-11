@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Models\Post;
 use App\Models\Rss;
+use App\Models\Post;
+use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
@@ -32,4 +32,14 @@ class PostController extends Controller
             "post" => $post
         ]);
     }
+
+    public function getPost(){
+        // get from news
+        // $news= Post::where('rss_id', $rss_id)->get();
+        // return response()->json($news, 200);
+        $posts = Post::all();
+        return response()->json($posts);
+    }
+    
 }
+

@@ -9,7 +9,7 @@ class Post extends Model
 {
     use HasFactory;
 
-    // protected $fillable = ['tittle', 'excerpt', 'body']; //tabel yang boleh diisi, sisanya ga boleh
+    // protected $fillable = ['rss_id', 'title', 'category', 'url', 'img'];
     protected $guarded = ['id']; //tabel yang ga boleh diisi, sisanya boleh
     // protected $with = ['category', 'source'];
     protected $with = ['source'];

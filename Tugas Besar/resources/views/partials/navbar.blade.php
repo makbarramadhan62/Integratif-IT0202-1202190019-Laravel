@@ -33,6 +33,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link active" href="/pokeapi">
+                        Pokemon
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/teman">
+                        Berita Teman
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link active" href="/about">About</a>
                 </li>
             </ul>
