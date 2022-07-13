@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="/teman">
+                    <a class="nav-link active" href="/rss_teman">
                         Berita Teman
                     </a>
                 </li>

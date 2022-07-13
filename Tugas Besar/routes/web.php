@@ -42,7 +42,14 @@ Route::get('/categories', function () {
     ]);
 });
 
-Route::get('/pokeapi', function(){
+Route::get('/pokeapi', function () {
     return view('pokeapi', [
-        "title" => "Pokemon API"]);
+        "title" => "Pokemon API"
+    ]);
+});
+
+Route::get('/rss_teman', function () {
+    return view('rss_teman', [
+        "title" => "RSS Teman"
+    ]);
 });
